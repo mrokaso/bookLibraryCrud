@@ -1,0 +1,22 @@
+---
+spring:
+  database: #DATABASE MYSQL (IF NEED ANOTHER DATABASE MODIFY FILE DATABASECONFIG.JAVA IN PACKAGE WEB.CONFIG)
+    host: host
+    port: port
+    name: nameDatabase
+    user: user
+    password: password
+server:
+  port: 8080
+crud-api:
+  business:
+    jwt:
+      password: HVdJWWxy0u0zSLI49tvotZZNGezBBdaioP5gQTvTeGQs7UEZUNkvYKSWftu6Oi50Xu5nFfkF6OyxqbPolInRlz3fMA3fQU2sduP6
+      module-token-exp-time: 360000 # 6 minutes
+      user-token-exp-time: 360000 # 6 minutes
+      issuer: crudAPI
+  web:
+    location: http://localhost:8080
+modules:
+  rummagerAPI: http://jrutkowski.potatoinc.com
+  clientAPI: https://booklibrary-client-api.herokuapp.com
