@@ -1,12 +1,12 @@
 package business.impl;
 
 
-import business.exceptions.ResourceNotExistingException;
+import business.exceptions.MissingIdParameterRequestException;
 import business.exceptions.ResourceNotFoundException;
 import business.mapers.AuthorMapper;
 import business.mapers.models.AuthorRequest;
 import data.entities.Author;
-import data.models.SearchAuthorCriteria;
+import data.modelsSearch.SearchAuthorCriteria;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -44,9 +44,9 @@ public class AuthorServiceImpl implements AuthorService {
 
     @Override
     public void editAuthor(Author author) {
+        if(author.getId() == null) throw new MissingIdParameterRequestException();
         authorRepository.save(author);
     }
-
 
     @Override
     public void deleteAuthor(long idAuthor) {

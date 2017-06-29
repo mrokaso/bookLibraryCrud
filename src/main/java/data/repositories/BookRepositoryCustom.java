@@ -2,7 +2,7 @@ package data.repositories;
 
 
 import data.entities.Book;
-import data.models.SearchBookCriteria;
+import data.modelsSearch.SearchBookCriteria;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package utils.http;
+package java.utils.http;
 
 import business.exceptions.HttpClientException;
 import com.fasterxml.jackson.core.type.TypeReference;

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <Author id="1" name="Jan" surname="Kowalski" birthDate="2000-10-09 00:00:00" />
+    <Author id="2" name="Marcin" surname="Miastowy" birthDate="2000-10-11 00:00:00" />
+    <Author id="3" name="Marta" surname="Mieczkowska" birthDate="2000-10-13 00:00:00" />
+    <Author id="4" name="Ania" surname="Rzymska" birthDate="2000-10-13 00:00:00" />
+</dataset>

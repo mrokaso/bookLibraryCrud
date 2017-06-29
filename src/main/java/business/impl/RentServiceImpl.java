@@ -1,7 +1,6 @@
 package business.impl;
 
 
-import business.exceptions.ResourceExistingException;
 import business.exceptions.ResourceNotExistingException;
 import business.security.JwtService;
 import data.entities.Book;
@@ -15,10 +14,9 @@ import data.repositories.BookRepository;
 import data.repositories.RentRepository;
 import data.repositories.UserRepository;
 import business.RentService;
-import utils.http.HttpMethod;
-import utils.http.HttpRequest;
-import utils.http.HttpRequestBuilder;
-import utils.http.HttpResponse;
+import java.utils.http.HttpMethod;
+import java.utils.http.HttpRequest;
+import java.utils.http.HttpRequestBuilder;
 
 import java.util.Date;
 import java.util.List;

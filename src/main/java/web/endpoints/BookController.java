@@ -6,7 +6,7 @@ import business.mapers.BookMapper;
 import business.mapers.models.BookRequest;
 import business.mapers.models.BookResponse;
 import data.entities.Book;
-import data.models.SearchBookCriteria;
+import data.modelsSearch.SearchBookCriteria;
 import data.repositories.RentRepository;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

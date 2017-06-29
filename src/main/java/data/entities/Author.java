@@ -31,6 +31,21 @@ public class Author {
     @ManyToMany
     private List<Book> books;
 
+    public Author(){}
+
+    public Author(Long id, String name, String surname, Date birthDate){
+        this.id = id;
+        this.name = name;
+        this.surname = surname;
+        this.birthDate = birthDate;
+    }
+
+    public Author(String name, String surname, Date birthDate){
+        this.name = name;
+        this.surname = surname;
+        this.birthDate = birthDate;
+    }
+
     public Long getId() {
         return id;
     }

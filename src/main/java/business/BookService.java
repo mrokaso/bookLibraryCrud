@@ -2,9 +2,8 @@ package business;
 
 
 import business.mapers.models.BookRequest;
-import business.mapers.models.BookResponse;
 import data.entities.Book;
-import data.models.SearchBookCriteria;
+import data.modelsSearch.SearchBookCriteria;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 

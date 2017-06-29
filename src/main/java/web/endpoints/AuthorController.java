@@ -1,9 +1,10 @@
 package web.endpoints;
 
 
+import business.exceptions.ResourceNotExistingException;
 import business.mapers.models.AuthorRequest;
 import data.entities.Author;
-import data.models.SearchAuthorCriteria;
+import data.modelsSearch.SearchAuthorCriteria;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;

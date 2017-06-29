@@ -19,6 +19,7 @@ public class ExceptionController {
         statusCodes.put(ResourceNotExistingException.class.getName(), HttpStatus.BAD_REQUEST);
         statusCodes.put(ResourceNotFoundException.class.getName(), HttpStatus.NOT_FOUND);
         statusCodes.put(InvalidTokenException.class.getName(), HttpStatus.BAD_REQUEST);
+        statusCodes.put(MissingIdParameterRequestException.class.getName(), HttpStatus.BAD_REQUEST);
     }
 
     @ExceptionHandler(Exception.class)

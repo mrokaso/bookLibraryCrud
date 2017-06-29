@@ -4,9 +4,8 @@ package data.repositories;
 import com.querydsl.jpa.impl.JPAQuery;
 import data.entities.Book;
 import data.entities.QBook;
-import data.models.SearchBookCriteria;
+import data.modelsSearch.SearchBookCriteria;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.jpa.repository.support.QueryDslRepositorySupport;
 import org.springframework.stereotype.Component;
 
 import javax.persistence.EntityManager;

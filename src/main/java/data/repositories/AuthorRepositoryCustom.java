@@ -2,7 +2,7 @@ package data.repositories;
 
 
 import data.entities.Author;
-import data.models.SearchAuthorCriteria;
+import data.modelsSearch.SearchAuthorCriteria;
 
 import java.util.List;
 

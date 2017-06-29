@@ -4,7 +4,7 @@ package data.repositories;
 import com.querydsl.jpa.impl.JPAQuery;
 import data.entities.Author;
 import data.entities.QAuthor;
-import data.models.SearchAuthorCriteria;
+import data.modelsSearch.SearchAuthorCriteria;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.persistence.EntityManager;

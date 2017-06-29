@@ -1,4 +1,4 @@
-package utils.http;
+package java.utils.http;
 
 import business.exceptions.HttpClientException;
 import com.google.gson.Gson;
@@ -11,7 +11,6 @@ import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Map;
-import java.util.Map.Entry;
 
 
 public class HttpRequest {

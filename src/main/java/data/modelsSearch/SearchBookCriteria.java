@@ -1,4 +1,4 @@
-package data.models;
+package data.modelsSearch;
 
 
 public class SearchBookCriteria {

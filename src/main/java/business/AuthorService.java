@@ -3,7 +3,7 @@ package business;
 
 import business.mapers.models.AuthorRequest;
 import data.entities.Author;
-import data.models.SearchAuthorCriteria;
+import data.modelsSearch.SearchAuthorCriteria;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
